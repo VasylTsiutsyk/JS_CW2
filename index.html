@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS_CW2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container ">
+                <div class="btn-container font-style-container">
+                    <label class="box-container">
+                        <input type="checkbox" id="textBold" value="bold"
+                        data-prop="font-weight"
+                        data-value="bold"
+                        name="slylesCheckbox">
+                        <span class="ico round-left">
+                            <i class="fas fa-bold"></i>
+                        </span>
+                    </label>
+                    <label class="box-container">
+                        <input type="checkbox" id="textCursive"
+                        data-prop="font-style"
+                        data-value="italic"
+                        name="slylesCheckbox">
+                        <span class="ico ico-italic">
+                            <i class="fas fa-italic"></i>
+                        </span>
+                    </label>
+                    <label class="box-container">
+                        <input type="radio" id="textUnderline" 
+                        data-prop="text-decoration"
+                        data-value="underline"
+                        name="textDecoration">
+                        <span class="ico ico-underline">
+                            <i class="fas fa-underline"></i>
+                        </span>
+                            </label>
+                    <label class="box-container">
+                        <input type="radio" id="textStrike" 
+                        data-prop="text-decoration"
+                        data-value="line-through"
+                        type="checkbox"
+                        name="textDecoration">
+                        <span class="ico round-right">
+                            <i class="fas fa-strikethrough"></i>
+                        </span>
+                    </label>
+                </div>
+
+
+
+                <div class="btn-container text-align-container">
+                    <label class="box-container">
+                        <input type="radio"  id=""
+                        data-prop="text-align"
+                        data-value="left"
+                        name="alingRadio">
+                        <span class="ico round-left">
+                            <i class="fas fa-align-left"></i>
+                        </span>
+                    </label>
+                    <label class="box-container">
+                        <input type="radio"  id=""
+                        data-prop="text-align"
+                        data-value="center"
+                        name="alingRadio">
+                        <span class="ico">
+                            <i class="fas fa-align-center"></i>
+                        </span>
+                    </label>
+                    <label class="box-container">
+                        <input type="radio"  id=""
+                        data-prop="text-align"
+                        data-value="right"
+                        name="alingRadio">
+                        <span class="ico round-right">
+                            <i class="fas fa-align-right"></i>
+                        </span>
+                    </label>
+                </div>
+
+
+
+                <div class="btn-container text-style-container">
+                    <div>
+                        <button class="js-drop dr-btn round-left">
+                            <span class="ico round-left">
+                                    <i class="fas fa-font"></i>
+                            </span> 
+                            <ul class="js-dr-list dr-list">
+                                    <li class="js-dr-item dr-item" data-prop="font-family" data-value="Arial"></li>
+                                    <li class="js-dr-item dr-item" data-prop="font-family" data-value="Roboto"></li>
+                                    <li class="js-dr-item dr-item" data-prop="font-family" data-value="Segoe UI"></li>
+                                    <li class="js-dr-item dr-item" data-prop="font-family" data-value="Impact"></li>
+                                    <li class="js-dr-item dr-item" data-prop="font-family" data-value="Georgia"></li>
+                                </ul> 
+                        </button>
+
+                    </div>
+                    <div>
+                        <button class="js-drop dr-btn round-right">
+                                 <span class="ico round-right">
+                                        <i class="fas fa-text-height"></i>
+                                 </span>
+                                <ul class="js-dr-list dr-list">
+                                        <li class="js-dr-item dr-item" data-prop="font-size" data-value="12px"></li>
+                                        <li class="js-dr-item dr-item" data-prop="font-size" data-value="16px"></li>
+                                        <li class="js-dr-item dr-item" data-prop="font-size" data-value="20px"></li>
+                                        <li class="js-dr-item dr-item" data-prop="font-size" data-value="24px"></li>
+                                        <li class="js-dr-item dr-item" data-prop="font-size" data-value="28px"></li>
+                                    </ul>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="txt" class="txt">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo natus dignissimos, unde temporibus dolorem possimus corrupti deleniti fuga facere earum!
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis labore laborum sint in numquam eaque, vel autem facere assumenda!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus optio in ab aliquid saepe ipsam laudantium assumenda cum iste.
+        </p>
+    </div>
+
+
+    <script src="./font-decoration.js"></script>
+    <script src="./text-align.js"></script>
+    <script src="./dropdown.js"></script>
+</body>
+
+</html>
